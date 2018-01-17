@@ -17,12 +17,13 @@ function Walker() {
 
 	this.render = function() {
 		stroke(0);
-		point(this.x, this.y);
+		point(this.x, this.y);			
 	}
 
 	this.step = function () {
-		var stepx = floor(random(-1, 2));
-		var stepy = floor(random(-1, 2));
+		var stepx = floor(random(-1, 2));		//here we break the steps into x and y directions. We ask for a random 
+		var stepy = floor(random(-1, 2));		//number between -1 and 2 and we then floor it. 1.9 will be floored to 1, 
+												//0.9 will be floored to 0 and -0.2 will be floored to -1. This is one way to achieve 9 outcomes including not moving.
 
 		this.x = this.x + stepx;
 		this.y = this.y + stepy;
