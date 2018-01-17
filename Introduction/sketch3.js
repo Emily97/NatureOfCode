@@ -1,7 +1,7 @@
-var randomCounts = [];
+var randomCounts = [];					//Firstly we declare and empty array called randomCounts and a variable for the number of items we will have in our array
 var total = 20;
 
-function setup() {
+function setup() {						//In our setup we create a canvas. The loop populates the array with zero's [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 	createCanvas(640,360);
 	for (var i = 0; i < total; i++) {
 		randomCounts[i] = 0;

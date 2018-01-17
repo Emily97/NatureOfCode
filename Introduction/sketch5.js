@@ -22,7 +22,7 @@ function Walker() {
 
 	this.step = function() {
 		var choice = floor(random(4));
-		var r = random(1);
+		var r = random(1);					//In this instance r(our random number) is a floating number between 0 and 1. It has a 40% chance of moving to the right, a  20% chance of moving and so on.
 		//A 40% of moving to the right
 		if(r < 0.4) {
 			this.x++;

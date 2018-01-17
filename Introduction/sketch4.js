@@ -22,7 +22,7 @@ function Walker() {
 
 	this.step = function(){
 		var probArray = [];
-		probArray[1] = 1;
+		probArray[1] = 1;			//In this instance r(our random number) has 40% of being a 1 or a 3 and 20% chance of being a 2
 		probArray[2] = 1;
 		probArray[3] = 2;
 		probArray[4] = 3;
