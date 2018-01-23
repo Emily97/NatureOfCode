@@ -6,7 +6,7 @@ function setup() {
 function draw() {
 	loadPixels();
 
-	var index = (2+2*5)*4
+	var index = (2+2*5)*4;
 	pixels[index+0] = 255;
 	pixels[index+1] = 0;
 	pixels[index+2] = 0;
