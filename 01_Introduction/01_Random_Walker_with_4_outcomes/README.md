@@ -12,7 +12,7 @@ function setup() {
 	walker = new Walker();
 }
 ```
-- draw() => this is loaded every frame to redraw the canvas each frame.
+- draw() => this is loaded every frame to redraw the canvas each frame. The functions render and step found within the draw function are functions that are declared in the Walker class which makes walker objects.
 
 ```js
 function draw() {
@@ -20,6 +20,15 @@ function draw() {
 	walker.step();
 }
 ```
+
+Within the Walker class the walker objects starting position has been declared at the centre of the canvas. 
+
+```js
+	this.x = width/2;
+	this.y = height/2;
+
+```
+
 
 
 
