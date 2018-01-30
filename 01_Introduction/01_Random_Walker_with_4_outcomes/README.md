@@ -3,7 +3,7 @@
 To start, 2 functions are required to draw the walker objects to the window. 
 
 The two functions required are: 
-- setup() => anything found within this function is only executed once when the page is loaded.
+- setup() => anything found within this function is only executed once when the page is loaded. The setup function initialises the object.
 
 ```js
 function setup() {
