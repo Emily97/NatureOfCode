@@ -8,6 +8,7 @@ var Mover = function() {
 		this.velocity.add(this.acceleration);
 		this.velocity.limit(10);
 		this.location.add(this.velocity);
+		this.acceleration.mult(0);
 	}
 
 	this.display = function() {
@@ -27,7 +28,7 @@ var Mover = function() {
 	}
 
 	this.applyForce = function(force) {
-		this.acceleration = force;
+		this.acceleration.add(force);
 	}
 
 }
