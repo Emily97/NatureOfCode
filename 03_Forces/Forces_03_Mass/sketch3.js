@@ -2,7 +2,7 @@ var mover;
 
 function setup() {
 	createCanvas(640, 640);
-	mover = new Mover(10);
+	mover = new Mover(5);
 }
 
 function draw() {
