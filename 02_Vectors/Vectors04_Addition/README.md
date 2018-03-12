@@ -1,6 +1,6 @@
 # Vectors04 - Addition
  Firstly, we declare position and velocity which in the previous exercise we declared as vectors. Next in the setup function we declared the canvas size as well as give the two values of x and y to the variables position and velocity.
-```
+```js
 var position;
 var velocity;
 
@@ -11,12 +11,12 @@ function setup() {
 }
 ```
 In the draw function we find the background drawn each frame. The add function is new and is important to this exercise. The add function is adding the position and velocity variables together which adds the current speed to the position. The outcome looks like this:
-```
+```js
 position.add(velocity);
 ```
 While this does the same as the previous exercise, it is simpler and shows the capabilities of using vectors rather than individual variables.
 Like before the if statements prevent the ball from going off of the screen and bounces. The characteristics of the circle are declared before the ellipse is given its size and where its starting position is.
-```
+```js
 if ((position.x > width) || (position.x < 0)) {
   velocity.x = velocity.x * -1;
 }
