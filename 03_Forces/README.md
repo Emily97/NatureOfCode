@@ -8,3 +8,6 @@ The section covers the area of Forces in terms of Friction, Gravity, Mass and Fo
 - 3. [Force: Mass](Forces_03_Mass)
 - 4. [Force: Gravity](Forces_04_Gravity_On_Math)
 - 5. [Force: Friction](Forces_05_Friction)
+- 6. [Forces Tutorial: Friction](exercise)
+- 7. [Forces Tutorial: Fluid Resistance](Forces_Exercise_Fluid_Resistance)
+- 8. [Forces Tutorial: Liquid Experiment](Liquid_Experiment)
