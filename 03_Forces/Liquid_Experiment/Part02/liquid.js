@@ -23,7 +23,10 @@ var Liquid = function(x, y, w, h, cd, r, g, b, o) {
 
     var dragForce = p5.Vector.mult(m.velocity, -1);
 
+    //scale according to dragMagnitude
+    //dragForce.setMag(dragMagnitude);
     dragForce.normalize();
     dragForce.mult(dragMagnitude);
+    return dragForce;
   }
 }

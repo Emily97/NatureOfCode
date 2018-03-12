@@ -26,7 +26,9 @@ var Mover = function(x,y,vx,vy,ax,ay,m) { //x and y locations, xand y velocity, 
 			this.velocity.y = this.velocity.y * -1;
 		}
   }
-  this.applyForces = function () {
+  this.applyForce = function(force) {
+    var f = p5.Vector.div(force, this.mass);
 
+    this.acceleration.add(f);
   }
 }
