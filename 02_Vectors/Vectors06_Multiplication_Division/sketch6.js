@@ -9,6 +9,7 @@ function draw() {
 	var center = createVector(width/2, height/2);
 	var vectorLine = mouse.sub(center);
 	vectorLine.mult(0.5);
+	//vectorLine.div(0.5);
 
 	translate(width /2, height /2);
 	strokeWeight(2);
