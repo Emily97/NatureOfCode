@@ -1,6 +1,6 @@
 # The Nature of Code - Forces - Liquid Experiment
 
-A tutorial to show step by step how to Fluid Resistance on an object
+A tutorial to show step by step how to add Fluid Resistance to an object
 ## Tutorials
 - 1. [Tutorial 1: Mapping Noise to wind](Part0)
 - 2. [Tutorial 2: Ball Object with no forces](Part01)
