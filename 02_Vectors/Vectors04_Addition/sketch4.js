@@ -10,7 +10,7 @@ function setup() {
 function draw() {
 	background(51);
 
-	//Addthe current speed to the position.
+	//Add the current speed to the position.
 	position.add(velocity);
 
 	if ((position.x > width) || (position.x < 0)) {
