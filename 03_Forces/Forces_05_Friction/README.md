@@ -42,7 +42,7 @@ var Mover = function(m) {
 }
 ```
 In the sketch.js we find that the mass is gonna act on the mover. The variable c is the coefficient of friction which establishes the friction force of a particular surface. The variable normal is the force perpendicular to the objects motion across a surface. This means gravity acting on a person from above keeps them on the ground but the ground also pushes up at the person.
-Multiplying c and normal variables gives the value for frictionMag. 
+Multiplying c and normal variables gives the value for frictionMag.
 ```js
 var mover;
 
