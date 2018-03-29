@@ -6,4 +6,4 @@ This will be our online respoitory of all the files we create from the book Natu
 - 1.[Introduction - Randomness, Perlin Noise, Probability](01_Introduction/)
 - 2.[Vectors and Motion](02_Vectors/)
 - 3.[Forces](03_Forces/)
-- 4.[Particle Systems](04_Particle_Systems/)
+- 4.[Oscillation](04_Oscillation/Class Exercise)
