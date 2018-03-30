@@ -7,7 +7,7 @@ The section covers the area of Oscillation in terms of angular motion, attractio
 - 2.[Angular Motion](02_Angular_Motion/)
 - 3.[Attraction](03_Attraction/)
 - 4.[Polar Rotation](04_Polar_Cartesian/)
-- 5.[Harmonic Motion I](05_Harmonic_Motion/)
+- 5.[Harmonic Motion](05_Harmonic_Motion/)
 - 6.[Oscillator Objects](06_Oscillator_Objects/)
 - 7.[Sin & Cos Waves](07_Waves/)
 - 8.[Pendulum](08_Pendulum)
