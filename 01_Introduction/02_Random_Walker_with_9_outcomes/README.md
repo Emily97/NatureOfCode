@@ -1,8 +1,9 @@
 # Random Walker with 9 outcomes
+In this exercise we increase the number of outcomes from 4 to 9. Instead of using an if statement like in the last exercise we use the floor(random) to randomly pick numbers between -1 and 1 on the x-axis and the y-axis. This way it allows 8 different forms of movement with another option being to stay in the same place. In this instance since there are 9 different outcomes with equal opportunities to occur, there's a 11.1% chance of any step taking place. 
+## Code
+To start, 2 functions are required to draw the walker objects to the window.
 
-To start, 2 functions are required to draw the walker objects to the window. 
-
-The two functions required are: 
+The two functions required are:
 - setup() => anything found within this function is only executed once when the page is loaded. The setup function initialises the object.
 
 ```js
@@ -38,7 +39,7 @@ function Walker() {
 
  ```js
  this.step = function () {
-		var stepx = floor(random(-1, 2)); 
+		var stepx = floor(random(-1, 2));
 		var stepy = floor(random(-1, 2));
 
 		this.x = this.x + stepx;
@@ -49,5 +50,3 @@ function Walker() {
 	}
 }
 ```
-
-

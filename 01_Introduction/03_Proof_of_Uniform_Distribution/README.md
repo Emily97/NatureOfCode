@@ -1,5 +1,6 @@
 # Proof of Uniform Distribution
-
+In this exercise we create a number of bars on the screen that randomly increment depending on the index number that is randomly picked. This example shows how psuedo random is not actually random but it actually a mathematical function that simulates randomness. This is shown by how the columns remain relatively the same. 
+##Code
 Firstly we declare and empty array called randomCounts and a variable for the number of items we will have in our array.
 
 ```js
@@ -29,7 +30,7 @@ function draw() {
 	fill(255);
 }
 ```
-This variable below is declaring the width of the columns by dividing the width of the canvas by the number of columns to be drawn. A loop is used to add height to the columns when there number is selected. 
+This variable below is declaring the width of the columns by dividing the width of the canvas by the number of columns to be drawn. A loop is used to add height to the columns when there number is selected.
 
 ```js
 	var w = width/randomCounts.length;

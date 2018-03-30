@@ -20,16 +20,22 @@ function Walker() {
 		point(this.x, this.y);
 	};
 
-	this.step = function(){
-		var probArray = [];
-		probArray[1] = 1;			//In this instance r(our random number) has 40% of being a 1 or a 3 and 20% chance of being a 2
-		probArray[2] = 1;
-		probArray[3] = 2;
-		probArray[4] = 3;
-		probArray[5] = 3;
+	this.step = function() {
 
-		var index = floor(random(probArray.length));
-		var r = probArray[index];
+		var probArray = [];
+		probArray[0] = 1;
+		probArray[1] = -1;
+		probArray[2] = 1;
+		probArray[3] = -1;
+		probArray[4] = -1;
+
+		var indexX = floor(random(probArray.length));
+		var indexY = floor(random(probArray.length));
+		var rx = probArray[indexX];
+		var ry = probArray[indexY];
+
+		this.x += rx;
+		this.y += ry;
 
 		this.x = constrain(this.x,0,width - 1);
 		this.y = constrain(this.y,0,height - 1);

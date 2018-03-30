@@ -35,7 +35,7 @@ function Walker() {							//This is the Walker class that makes walker objects. 
 			this.y--;
 		}
 
-		this.x = constrain(this.x,0,width);	//We dont want our point to go off the screen so we use a p5.js function called 
+		this.x = constrain(this.x,0,width);	//We dont want our point to go off the screen so we use a p5.js function called
 		this.y = constrain(this.y,0,height);//constrain to limit its x position. (constrain a value between 2 other values)
 	}
 }
